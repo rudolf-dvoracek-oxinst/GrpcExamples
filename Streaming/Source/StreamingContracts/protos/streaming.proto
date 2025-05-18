@@ -1,0 +1,19 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "StreamingContracts";
+
+package streaming;
+
+// Request message for video streaming
+message VideoRequest {
+}
+
+// Response message for video streaming (chunked)
+message VideoChunk {
+  bytes data = 1;
+}
+
+// Service definition
+service VideoStreaming {
+  rpc StreamVideo(VideoRequest) returns (stream VideoChunk);
+}
