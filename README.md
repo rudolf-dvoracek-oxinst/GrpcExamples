@@ -4,7 +4,7 @@ This repository contains three example solutions demonstrating gRPC communicatio
 
 ---
 
-## 1. [HelloWorld Solution](HelloWorld/README.md)
+## 1. [HelloWorld Solution](HelloWorld)
 
 A basic gRPC example for .NET, focusing on a simple request/response pattern.
 
@@ -21,7 +21,7 @@ Demonstrates the fundamentals of gRPC service and client implementation in .NET 
 
 ---
 
-## 2. [HelloWorldMixedClients Solution](HelloWorldMixedClients/README.md)
+## 2. [HelloWorldMixedClients Solution](HelloWorldMixedClients)
 
 A cross-platform gRPC example with both modern and legacy .NET clients.
 
@@ -40,7 +40,7 @@ Shows how to consume a gRPC service from both .NET Framework 4.8 and .NET 8 clie
 
 ---
 
-## 3. [Streaming Solution](Streaming/README.md)
+## 3. [Streaming Solution](Streaming)
 
 An advanced gRPC example focusing on server and/or client streaming.
 
